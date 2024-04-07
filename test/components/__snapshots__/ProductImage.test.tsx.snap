@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductImage Renders ProductImage with a custom image without crashing 1`] = `
+<img
+  alt="Product"
+  className="productImg undefined"
+  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQDGQ55_znshhGDlxv5sDZz96tD3hxPc5j8CVWMKvJcw&s"
+/>
+`;
+
+exports[`ProductImage Renders ProductImage with a the image of the product without crashing 1`] = `
+<div
+  className="productCard undefined"
+>
+  <img
+    alt="Product"
+    className="productImg undefined"
+    src="./coffee-mug.png"
+  />
+</div>
+`;
