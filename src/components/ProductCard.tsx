@@ -42,12 +42,7 @@ export const ProductCard = ({
     isMaxCountReached,
     isMinCountReached,
     resetCounter,
-  } = useProduct({
-    product,
-    onChange,
-    value,
-    initialValues,
-  });
+  } = useProduct({ product, onChange, value, initialValues });
 
   return (
     <Provider
